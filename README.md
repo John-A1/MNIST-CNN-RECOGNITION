@@ -21,10 +21,10 @@ The CNN model used:
 Conv2D layer (32 filters, 3x3 kernel, ReLU activation)
 Conv2D layer (64 filters, 3x3 kernel, ReLU activation)
 MaxPooling2D layer (2x2)
-Dropout (5%)
 Flatten
 Dense layer (128 units, ReLU activation)
-Dropout (50%)
+Dropout (5%)
+Dense output layer (10 units, Softmax activation)
 ```
 
 ## 🚀 Training
@@ -38,4 +38,4 @@ Test Accuracy: 99.13%
 ```
 ### Test Accuracy: 99.13%
 
-Dense output layer (10 units, Softmax activation)
+
